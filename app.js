@@ -7,7 +7,7 @@ $scope.list_lunch =''
 $scope.fail='Please enter data first'
 $scope.enjoy='Enjoy!'
 $scope.much='Too much!'
-function checkTextField() {
+function checkLunch() {
      var words = $scope.list_lunch.split(",");
     if (words == '') {
         $scope.fail;
